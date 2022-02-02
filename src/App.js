@@ -476,6 +476,10 @@ function App() {
                 {CONFIG.MARKETPLACE}
               </StyledButton>
             </span>
+            <s.SpacerSmall />
+            <s.SpacerMedium />
+          </s.Container>
+          <s.SpacerLarge />
         </ResponsiveWrapper>   
 
       </s.Container>
