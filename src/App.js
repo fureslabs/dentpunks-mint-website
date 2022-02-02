@@ -145,7 +145,7 @@ function App() {
       .then((receipt) => {
         console.log(receipt);
         setFeedback(
-          `WOW, the ${CONFIG.NFT_NAME} is yours! go visit Opensea.io to view it.`
+          `WOW, Thankyou for mints ${CONFIG.NFT_NAME}, go visit Opensea.io to view it.`
         );
         setClaimingNft(false);
         dispatch(fetchData(blockchain.account));
@@ -206,9 +206,6 @@ function App() {
         </a>
         <s.SpacerSmall />
         <ResponsiveWrapper flex={1} style={{ padding: 24 }} test>
-          <s.Container flex={1} jc={"center"} ai={"center"}>
-            <StyledImg alt={"example"} src={"/config/images/example.gif"} />
-          </s.Container>
           <s.SpacerLarge />
           <s.Container
             flex={2}
@@ -248,15 +245,25 @@ function App() {
               }}
             >
               <StyledButton
-                onClick={(e) => {
-                  window.open("/config/roadmap.pdf", "_blank");
-                }}
                 style={{
                   margin: "5px",
                 }}
+                onClick={(e) => {
+                  window.open(CONFIG.INSTAGRAM_LINK, "_blank");
+                }}
               >
-                Roadmap
-              </StyledButton>
+                {CONFIG.INSTAGRAM}
+              </StyledButton>          
+              <StyledButton
+                style={{
+                  margin: "5px",
+                }}
+                onClick={(e) => {
+                  window.open(CONFIG.TWITTER_LINK, "_blank");
+                }}
+              >
+                {CONFIG.TWITTER}
+              </StyledButton>                    
               <StyledButton
                 style={{
                   margin: "5px",

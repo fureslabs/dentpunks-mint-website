@@ -1,18 +1,23 @@
 {
-  "CONTRACT_ADDRESS": "0x33c273c97dad9c6a927410e3ba41f94e8ed13a93",
-  "SCAN_LINK": "https://polygonscan.com/token/0x33c273c97dad9c6a927410e3ba41f94e8ed13a93",
+  "CONTRACT_ADDRESS": "0x1c55eb453D4301fC422D0a8787FBA667740E7239",
+  "SCAN_LINK": "https://polygonscan.com/token/0x1c55eb453D4301fC422D0a8787FBA667740E7239",
   "NETWORK": {
     "NAME": "Polygon",
     "SYMBOL": "Matic",
     "ID": 137
   },
-  "NFT_NAME": "DENTPUNKS",
-  "SYMBOL": "DTPUNKS",
+  "NFT_NAME": "LILXO",
+  "SYMBOL": "LilXO",
   "MAX_SUPPLY": 5000,
-  "WEI_COST": 1620000000000000000,
-  "DISPLAY_COST": 1.62,
+  "WEI_COST": 8500000000000000000,
+  "DISPLAY_COST": 8.50,
   "GAS_LIMIT": 285000,
   "MARKETPLACE": "Opeansea",
-  "MARKETPLACE_LINK": "https://opensea.io/collection/dentpunks",
-  "SHOW_BACKGROUND": true
+  "MARKETPLACE_LINK": "https://opensea.io/collection/lilxo",
+  "SHOW_BACKGROUND": true,
+  "INSTAGRAM": "@lilxonft",
+  "INSTAGRAM_LINK": "https://www.instagram.com/lilxonft/",
+  "TWITTER": "@fureslabs",
+  "TWITTER_LINK": "https://twitter.com/fureslabs/"  
+
 }
