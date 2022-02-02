@@ -10,7 +10,7 @@
   "SYMBOL": "LilXO",
   "MAX_SUPPLY": 2500,
   "WEI_COST": 2000000000000000000,
-  "DISPLAY_COST": 8.50,
+  "DISPLAY_COST": 2,
   "GAS_LIMIT": 285000,
   "MARKETPLACE": "Opeansea",
   "MARKETPLACE_LINK": "https://opensea.io/collection/lilxo",
