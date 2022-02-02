@@ -405,18 +405,79 @@ function App() {
           </s.Container>
           <s.SpacerLarge />
         </ResponsiveWrapper>
-        <s.SpacerMedium />
-        <s.Container jc={"center"} ai={"center"} style={{ width: "70%" }}>
-          <s.TextDescription
+
+        <ResponsiveWrapper flex={1} style={{ padding: 24 }} test>
+          <s.SpacerLarge />
+          <s.Container
+            flex={2}
+            jc={"center"}
+            ai={"center"}
             style={{
-              textAlign: "center",
-              color: "var(--primary-text)",
+              backgroundColor: "var(--accent)",
+              padding: 24,
+              borderRadius: 24,
+              border: "4px dashed var(--secondary)",
+              boxShadow: "0px 5px 11px 2px rgba(0,0,0,0.7)",
             }}
           >
-            if you need help, please contact on twitter or instagram!
-          </s.TextDescription>
-          <s.SpacerSmall />
-        </s.Container>
+            <s.TextTitle
+              style={{
+                textAlign: "center",
+                fontSize: 50,
+                fontWeight: "bold",
+                color: "var(--accent-text)",
+              }}
+            >
+              {data.totalSupply} / {CONFIG.MAX_SUPPLY}
+            </s.TextTitle>
+            <s.TextDescription
+              style={{
+                textAlign: "center",
+                color: "var(--primary-text)",
+              }}
+            >
+              <StyledLink target={"_blank"} href={CONFIG.SCAN_LINK}>
+                {truncate(CONFIG.CONTRACT_ADDRESS, 15)}
+              </StyledLink>
+            </s.TextDescription>
+            <span
+              style={{
+                textAlign: "center",
+              }}
+            >
+              <StyledButton
+                style={{
+                  margin: "5px",
+                }}
+                onClick={(e) => {
+                  window.open(CONFIG.INSTAGRAM_LINK, "_blank");
+                }}
+              >
+                {CONFIG.INSTAGRAM}
+              </StyledButton>          
+              <StyledButton
+                style={{
+                  margin: "5px",
+                }}
+                onClick={(e) => {
+                  window.open(CONFIG.TWITTER_LINK, "_blank");
+                }}
+              >
+                {CONFIG.TWITTER}
+              </StyledButton>                    
+              <StyledButton
+                style={{
+                  margin: "5px",
+                }}
+                onClick={(e) => {
+                  window.open(CONFIG.MARKETPLACE_LINK, "_blank");
+                }}
+              >
+                {CONFIG.MARKETPLACE}
+              </StyledButton>
+            </span>
+        </ResponsiveWrapper>   
+
       </s.Container>
     </s.Screen>
   );
