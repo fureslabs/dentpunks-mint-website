@@ -438,27 +438,121 @@ function App() {
                       }}
                     >
               Phase 1
+            </s.TextDescription>
+              <s.TextDescription
+                      style={{
+                        textAlign: "center",
+                        color: "var(--accent-text)",
+                      }}
+                    >                  
               - Built website mint
+              </s.TextDescription>                 
+
+              <s.TextDescription
+                      style={{
+                        textAlign: "center",
+                        color: "var(--accent-text)",
+                      }}
+                    >                  
               - Built Smart Contract Polygon
+              </s.TextDescription>              
+
+              <s.TextDescription
+                      style={{
+                        textAlign: "center",
+                        color: "var(--accent-text)",
+                      }}
+                    >                  
               - Built Instagram account
+              </s.TextDescription>   
+
+              <s.TextDescription
+                      style={{
+                        textAlign: "center",
+                        color: "var(--accent-text)",
+                      }}
+                    >                  
               - Built Twitter account
+              </s.TextDescription>              
+
+              <s.TextDescription
+                      style={{
+                        textAlign: "center",
+                        color: "var(--accent-text)",
+                      }}
+                    >                  
               - Start Presale cost 0.001 (Now)
+              </s.TextDescription>                 
+
+              <s.TextDescription
+                      style={{
+                        textAlign: "center",
+                        color: "var(--accent-text)",
+                      }}
+                    >                  
               - Start Public sale cost 0.005 (TBA)
+              </s.TextDescription>   
+              <s.TextDescription
+                      style={{
+                        textAlign: "center",
+                        color: "var(--accent-text)",
+                      }}
+                    >              
               - Airdrop Giveaway
                     </s.TextDescription>              
+
+              <s.TextDescription
+                      style={{
+                        textAlign: "center",
+                        color: "var(--accent-text)",
+                      }}
+                    >             
+              Phase 2
+              </s.TextDescription>  
+              <s.TextDescription
+                      style={{
+                        textAlign: "center",
+                        color: "var(--accent-text)",
+                      }}
+                    >             
+              - Built opensea LilXO store
+              </s.TextDescription>               
+
+              <s.TextDescription
+                      style={{
+                        textAlign: "center",
+                        color: "var(--accent-text)",
+                      }}
+                    >             
+              - Grow a great community
+              </s.TextDescription>               
+
+              <s.TextDescription
+                      style={{
+                        textAlign: "center",
+                        color: "var(--accent-text)",
+                      }}
+                    >             
+              - 10% for care protect human kitabisa.com
+              </s.TextDescription>     
                     <s.TextDescription
                       style={{
                         textAlign: "center",
                         color: "var(--accent-text)",
                       }}
                     >
-              Phase 2
-              - Built opensea LilXO store
-              - Grow a great community
-              - 10% for care protect human kitabisa.com
               - 10% giveaway back to community
+              </s.TextDescription>                   
+
+              </s.TextDescription>     
+                    <s.TextDescription
+                      style={{
+                        textAlign: "center",
+                        color: "var(--accent-text)",
+                      }}
+                    >
               - Giveaway NFT & ETH to winners of discord invite competition.
-                    </s.TextDescription>     
+              </s.TextDescription>          
                     <s.TextDescription
                       style={{
                         textAlign: "center",
@@ -466,10 +560,23 @@ function App() {
                       }}
                     >
               Phase 3
+              </s.TextDescription>            
+ 
+              <s.TextDescription
+                      style={{
+                        textAlign: "center",
+                        color: "var(--accent-text)",
+                      }}
+                    >                  
               - Built merchandise store LilXO
+              </s.TextDescription>    
+              <s.TextDescription
+                      style={{
+                        textAlign: "center",
+                        color: "var(--accent-text)",
+                      }}
+                    >                                  
               - TBA
-                    </s.TextDescription>  
-
             </s.TextDescription>            
             <span
               style={{
