@@ -428,6 +428,27 @@ function App() {
             >
               ROADMAP
             </s.TextTitle>
+            <s.TextDescription
+                  style={{ textAlign: "center", color: "var(--accent-text)" }}
+                >
+              Phase 1
+              - Built website mint
+              - Built Smart Contract Polygon
+              - Built Instagram account
+              - Built Twitter account
+              - Start Presale cost 0.001 (Now)
+              - Start Public sale cost 0.005 (TBA)
+              - Airdrop Giveaway
+              Phase 2
+              - Built opensea LilXO store
+              - Grow a great community
+              - 10% for care protect human kitabisa.com
+              - 10% giveaway back to community
+              - Giveaway NFT & ETH to winners of discord invite competition.
+              Phase 3
+              - Built merchandise store LilXO
+              - TBA
+            </s.TextDescription>            
             <span
               style={{
                 textAlign: "center",
